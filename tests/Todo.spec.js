@@ -4,7 +4,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Adding New Todos', () => {
-  test('Add several valid todos', async ({ page }) => {
+  test('Todos', async ({ page }) => {
     // 1. Navigate to the TodoMVC demo page.
     await page.goto('https://demo.playwright.dev/todomvc');
  
